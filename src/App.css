@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(36, 13, 47, 1);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  height: 90px;
+  margin-bottom: 70px;
+  background-color: rgba(10, 19, 31, 1);
+}
+nav>button{
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
